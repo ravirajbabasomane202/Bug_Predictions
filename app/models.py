@@ -1,8 +1,7 @@
 import datetime
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
-
-db = SQLAlchemy()
+from app import db
 
 bug_tags = db.Table('bug_tags',
     db.Column('bug_id', db.Integer, db.ForeignKey('bugs.id')),
