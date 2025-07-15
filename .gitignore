@@ -1,4 +1,5 @@
 .env
 /env
-/migrationsModels/best_model.bin
+/migrations
+/Models/best_model.bin
 
